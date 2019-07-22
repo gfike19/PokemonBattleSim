@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PokemonBattleSim.Models;
 
 namespace PokemonBattleSim.Migrations
 {
     [DbContext(typeof(PokemonContext))]
-    partial class PokemonContextModelSnapshot : ModelSnapshot
+    [Migration("20190722164403_UpdatePkAttributes")]
+    partial class UpdatePkAttributes
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
