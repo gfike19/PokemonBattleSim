@@ -62,3 +62,4 @@ C:\Users\aerot\coding\PokemonBattleSim\PokemonBattleSim\obj\Debug\netcoreapp2.1\
 C:\Users\aerot\coding\PokemonBattleSim\PokemonBattleSim\obj\Debug\netcoreapp2.1\PokemonBattleSim.dll
 C:\Users\aerot\coding\PokemonBattleSim\PokemonBattleSim\obj\Debug\netcoreapp2.1\PokemonBattleSim.pdb
 C:\Users\aerot\coding\PokemonBattleSim\PokemonBattleSim\obj\Debug\netcoreapp2.1\PokemonBattleSim.csproj.CopyComplete
+C:\Users\aerot\coding\PokemonBattleSim\PokemonBattleSim\obj\Debug\netcoreapp2.1\Razor\Views\PokemonBattleSim\Form1.g.cshtml.cs
