@@ -9,7 +9,7 @@ namespace PokemonBattleSim.Models
 {
     public class GenAllPk
     {
-        static List<Pokemon> allPokemon = new List<Pokemon>();
+        public static List<Pokemon> allPokemon = new List<Pokemon>();
         static bool IsDataLoaded = false;
 
         public static void LoadData()

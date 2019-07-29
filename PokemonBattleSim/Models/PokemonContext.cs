@@ -5,6 +5,10 @@ namespace PokemonBattleSim.Models
 {
     public class PokemonContext : DbContext
     {
+        public PokemonContext()
+        {
+        }
+
         public PokemonContext(DbContextOptions<PokemonContext> options) :base(options)
         { }
         public DbSet<Pokemon> Pokemons { get; set; }
