@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using PokemonBattleSim.Models;
 
 namespace PokemonBattleSim.Controllers
 {
@@ -16,7 +17,7 @@ namespace PokemonBattleSim.Controllers
         private void Form1_Shown(Object sender, EventArgs e)
         {
 
-           // MessageBox.Show("You are in the Form.Shown event.");
+           GenAllPk.
 
         }
     }

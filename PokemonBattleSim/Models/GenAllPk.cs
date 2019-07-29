@@ -9,9 +9,10 @@ namespace PokemonBattleSim.Models
 {
     public class GenAllPk
     {
+        static List<Pokemon> allPokemon = new List<Pokemon>();
         static bool IsDataLoaded = false;
 
-        private static void LoadData()
+        public static void LoadData()
         {
 
             if (IsDataLoaded)
@@ -21,7 +22,7 @@ namespace PokemonBattleSim.Models
 
             List<string[]> rows = new List<string[]>();
 
-            using (StreamReader reader = File.OpenText("References/Org150.csv"))
+            using (StreamReader reader = File.OpenText("Org150.csv"))
             {
                 while (reader.Peek() >= 0)
                 {
@@ -37,19 +38,18 @@ namespace PokemonBattleSim.Models
             string[] headers = rows[0];
             rows.Remove(headers);
 
-            // Parse each row array into a more friendly Dictionary
-            //foreach (string[] row in rows)
-            //{
-            //    Dictionary<string, string> rowDict = new Dictionary<string, string>();
-
-            //    for (int i = 0; i < headers.Length; i++)
-            //    {
-            //        rowDict.Add(headers[i], row[i]);
-            //    }
-            //    AllJobs.Add(rowDict);
-            //}
-
-
+            foreach (string[] row in rows)
+            {
+                int Id = Convert.ToInt32(row[0]);
+                string name = row[1];
+                string type1 = row[2];
+                string type2 = row[3];
+                int hp = Convert.ToInt32(row[4]);
+                int df = Convert.ToInt32(row[5]);
+                int att = Convert.ToInt32(row[6]);
+                Pokemon p = new Pokemon(Id, name, type1, type2, hp, df, att);
+                allPokemon.Add(p);
+            }
 
             IsDataLoaded = true;
         }
