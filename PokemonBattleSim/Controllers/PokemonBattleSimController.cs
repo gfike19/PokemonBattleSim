@@ -13,12 +13,5 @@ namespace PokemonBattleSim.Controllers
         {
             return View();
         }
-
-        private void Form1_Shown(Object sender, EventArgs e)
-        {
-
-           GenAllPk.
-
-        }
     }
 }
