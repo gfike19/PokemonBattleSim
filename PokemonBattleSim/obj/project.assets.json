@@ -12566,23 +12566,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aerot\\.nuget\\packages\\": {},
+    "C:\\Users\\Gail\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aerot\\coding\\PokemonBattleSim\\PokemonBattleSim\\PokemonBattleSim.csproj",
+      "projectUniqueName": "C:\\Users\\Gail\\coding\\PokemonBattleSim\\PokemonBattleSim\\PokemonBattleSim.csproj",
       "projectName": "PokemonBattleSim",
-      "projectPath": "C:\\Users\\aerot\\coding\\PokemonBattleSim\\PokemonBattleSim\\PokemonBattleSim.csproj",
-      "packagesPath": "C:\\Users\\aerot\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aerot\\coding\\PokemonBattleSim\\PokemonBattleSim\\obj\\",
+      "projectPath": "C:\\Users\\Gail\\coding\\PokemonBattleSim\\PokemonBattleSim\\PokemonBattleSim.csproj",
+      "packagesPath": "C:\\Users\\Gail\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gail\\coding\\PokemonBattleSim\\PokemonBattleSim\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\aerot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Gail\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

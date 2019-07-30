@@ -19,6 +19,14 @@ namespace PokemonBattleSim.Controllers
             {
                 db.Add(p);
             }
+            db.SaveChanges();
+
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult IndexPost()
+        {
 
             return View();
         }

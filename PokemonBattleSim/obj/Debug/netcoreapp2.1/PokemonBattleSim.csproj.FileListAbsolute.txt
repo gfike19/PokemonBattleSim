@@ -1,4 +1,3 @@
-C:\Users\Gail\coding\PokemonBattleSim\PokemonBattleSim\obj\Debug\netcoreapp2.1\PokemonBattleSim.csprojAssemblyReference.cache
 C:\Users\Gail\coding\PokemonBattleSim\PokemonBattleSim\obj\Debug\netcoreapp2.1\PokemonBattleSim.csproj.CoreCompileInputs.cache
 C:\Users\Gail\coding\PokemonBattleSim\PokemonBattleSim\obj\Debug\netcoreapp2.1\PokemonBattleSim.RazorAssemblyInfo.cache
 C:\Users\Gail\coding\PokemonBattleSim\PokemonBattleSim\obj\Debug\netcoreapp2.1\PokemonBattleSim.RazorAssemblyInfo.cs
@@ -62,3 +61,5 @@ C:\Users\aerot\coding\PokemonBattleSim\PokemonBattleSim\obj\Debug\netcoreapp2.1\
 C:\Users\aerot\coding\PokemonBattleSim\PokemonBattleSim\obj\Debug\netcoreapp2.1\PokemonBattleSim.dll
 C:\Users\aerot\coding\PokemonBattleSim\PokemonBattleSim\obj\Debug\netcoreapp2.1\PokemonBattleSim.pdb
 C:\Users\aerot\coding\PokemonBattleSim\PokemonBattleSim\obj\Debug\netcoreapp2.1\PokemonBattleSim.csproj.CopyComplete
+C:\Users\Gail\coding\PokemonBattleSim\PokemonBattleSim\obj\Debug\netcoreapp2.1\Razor\Views\PokemonBattleSim\Index.g.cshtml.cs
+C:\Users\Gail\coding\PokemonBattleSim\PokemonBattleSim\obj\Debug\netcoreapp2.1\PokemonBattleSim.csprojAssemblyReference.cache
