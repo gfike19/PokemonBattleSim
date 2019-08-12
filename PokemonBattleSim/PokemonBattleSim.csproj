@@ -13,7 +13,6 @@
 
   <ItemGroup>
     <Folder Include="References\" />
-    <Folder Include="Views\PokemonBattleSim\" />
   </ItemGroup>
 
 </Project>
